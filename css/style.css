@@ -9,7 +9,7 @@
 .headerBanner{
 	border:#ccc 2px solid;
 	border-radius: 20px;
-	margin-left: -200px;
+	margin-left: -100px;
 	margin-top: -200px;
 	background:#fff url(../img/headerLabel.png) left center no-repeat;
 	background-size: 100px 100px;
@@ -19,12 +19,12 @@
 	position: relative;
 }
 .headerBanner p {
-	font-size: 20px;
+	font-size: 21px;
 	padding-right: 200px; 
-	padding-top: 10px;
+	
 }
 .headerBanner p:first-child { 
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 .headerBanner .timer{
@@ -90,15 +90,27 @@
 	width: 780px; 
 }
 
+#omgCalc {
+	display: block;
+	margin: 25px auto 0;
+	width: 800px; 
+	cursor: pointer;
+}
 
 #calc{
-	display: block;
 	margin:25px auto 0;
 	width: 300px; 
 	background:url(../img/calcBG.png) no-repeat; 
 	background-size: 500px 486px; 
 	width:500px;
 	height:486px;
+	display: none;
+	z-index: 200;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
 #visota, #sirina{
 	margin-top: 120px;  	
@@ -185,4 +197,17 @@
 	margin:50px auto 0;
 	width: 980px;
 
+}
+#wrap {
+	display: none;
+	opacity: 0.8;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 16px;
+	background-color: rgba(1, 1, 1, 0.725);
+	z-index: 100;
+	overflow: auto;
 }
