@@ -41,7 +41,7 @@
           var k2 = 1;
           var k3 = 0;
           var k4 = 0;
-          var alfa = 13000;
+          var alfa = 0.013;
           
           if (document.getElementById("option_1").checked) {
             k1 = 1.3;
@@ -68,7 +68,7 @@
   <!-- {/literal}-->
 </head>
 <body>
-  <div class="" style="min-width: 980px;">
+  <div class="" style="min-width: 980px; max-width: 1280px; margin: 0 auto;">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Маркеры слайдов -->
       <ol class="carousel-indicators">
@@ -85,19 +85,19 @@
           <a href="#plitiTitle"><img src="img/slide1.jpg" alt="..."></a>
           <div class="carousel-caption">
             <div class="container posFix">
-              <div class="row" style="width: 980px; margin: 0 auto;">
+              <div class="row" >
                 <div class="col-md-9">
-                  <div class="headerBanner" style="min-width: 850px;">
+                  <div class="headerBanner">
                     <p>При заказе стекла термогерметик в подарок!</p>
                     <p>До конца акции осталось: </p>
                     <div class="timer"><script src="http://megatimer.ru/s/4f08deeb12a980c76a4d7b3a6a749efb.js"></script></div>                        
                   </div>
                 </div>
               </div>
-              <div class="row" style="width: 980px; margin: 0 auto;">
-                <div class="col-md-4 col-md-offset-5">
+              <div class="row">
+                <div class="col-md-4 col-md-offset-5" onclick="showForm('block')">
                   <div class="phone">8 (343) 344-69-10</div>
-                  <a href="#form1"><button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button></a>
+                  <button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@
           <a href="#plitiTitle"><img src="img/slide2.jpg"  alt="..."></a>
           <div class="carousel-caption">
              <div class="container posFix">
-              <div class="row" style="width: 980px; margin: 0 auto;">
+              <div class="row">
                 <div class="col-md-9">
                   <div class="headerBanner">
                     <p>При заказе стекла термогерметик в подарок!</p>
@@ -118,22 +118,22 @@
                   </div>
                 </div>
               </div>
-              <div class="row" style="width: 980px; margin: 0 auto;">
-                <div class="col-md-4 col-md-offset-5">
+              <div class="row">
+                <div class="col-md-4 col-md-offset-5" onclick="showForm('block')">
                   <div class="phone">8 (343) 344-69-10</div>
-                  <a href="#form1"><button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button></a>
+                  <button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       
-        <a href="#plitiTitle">
+       
         <div class="item">
-          <img src="img/slide3.jpg" alt="...">
+           <a href="#plitiTitle"><img src="img/slide3.jpg" alt="..."></a>
           <div class="carousel-caption">
               <div class="container posFix">
-              <div class="row" style="width: 980px; margin: 0 auto;">
+              <div class="row">
                 <div class="col-md-9">
                   <div class="headerBanner">
                     <p>При заказе стекла термогерметик в подарок!</p>
@@ -142,23 +142,21 @@
                   </div>
                 </div>
               </div>
-              <div class="row" style="width: 980px; margin: 0 auto;">
-                <div class="col-md-4 col-md-offset-5">
+              <div class="row">
+               <div class="col-md-4 col-md-offset-5" onclick="showForm('block')">
                   <div class="phone">8 (343) 344-69-10</div>
-                  <a href="#form1"><button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button></a>
+                  <button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        </a>
+        </div>   
         
-        <a href="#helpfulBlock">
         <div class="item">
-          <img src="img/slide4.jpg" alt="...">
+          <a href="#helpfulBlock"><img src="img/slide4.jpg" alt="..."></a>
           <div class="carousel-caption">
               <div class="container posFix">
-              <div class="row" style="width: 980px; margin: 0 auto;">
+              <div class="row">
                 <div class="col-xs-9">
                   <div class="headerBanner">
                     <p>При заказе стекла термогерметик в подарок!</p>
@@ -167,21 +165,21 @@
                   </div>
                 </div>
               </div>
-              <div class="row" style="width: 980px; margin: 0 auto;">
-                <div class="col-xs-4 col-md-offset-5">
+              <div class="row">
+               <div class="col-md-4 col-md-offset-5" onclick="showForm('block')">
                   <div class="phone">8 (343) 344-69-10</div>
-                  <a href="#form1"><button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button></a>
+                  <button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-         
+                 
         <div class="item">
-          <img src="img/slide5.jpg" alt="...">
+          <a href="#helpfulBlock"> <img src="img/slide5.jpg" alt="..."> </a>
           <div class="carousel-caption">
               <div class="container posFix">
-              <div class="row" style="width: 980px; margin: 0 auto;">
+              <div class="row">
                 <div class="col-xs-9">
                   <div class="headerBanner">
                     <p>При заказе стекла термогерметик в подарок!</p>
@@ -190,28 +188,27 @@
                   </div>
                 </div>
               </div>
-              <div class="row" style="width: 980px; margin: 0 auto;"
-              >
-                <div class="col-xs-4 col-xs-offset-5">
+              <div class="row">
+                <div class="col-md-4 col-md-offset-5" onclick="showForm('block')">
                   <div class="phone">8 (343) 344-69-10</div>
-                  <a href="#form1"><button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button></a>
+                  <button class="button call" onclick="$('#call-request1').arcticmodal()" style=""></button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      </a>
+     
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a>-->
     </div>
     <script type="text/javascript">
       $(document).ready(function(){
@@ -306,17 +303,7 @@
       <div class="col-xs-12">
         <img src="img/plitiTitle.png" class="plitiTitle" id="plitiTitle">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="img/pliti1.png" class="pliti">
-      </div>
-    </div>   
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="img/pliti2.png" class="pliti">
-      </div>
-    </div>
+    </div>    
     <div class="row">
       <div class="col-xs-12" onclick="show('block')">
         <img src="img/omgCalc.png" class="omgCalc" id="omgCalc" >
@@ -460,28 +447,83 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <a href="#form1"><div class="call2"></div></a>
+      <div class="col-md-12" onclick="showForm('block')">
+        <div class="call2"></div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="img/punktiVidachi.png" class="punktiVidachi" id="punkti"></a>
-      </div>
-    </div>
+  </div>
+
+    <div id ="punkti">    
+      <ul class="punkti1">
+        <li><b>Пункты выдачи:</b></li>
+        <li>г. Абакан, ул .Пушкина, 219 А</li> 
+        <li>г. Барнаул, ул. Попова, 242 </li>
+        <li>г. Бийск, ул. Мерлина 50/2 </li>
+        <li>г. Владивосток, ул. Снеговая, 55 А </li>
+        <li>г. Губкинский, ЯНАО г. Губкинский пром.зона </li>
+        <li>г. Ижевск, ул. Гагарина 83/1 </li>
+        <li>г. Йошкар-Ола, ул. Строителей, 99 Б </li>
+        <li>г. Каменск-Уральский, ул. Октябрьская, 21 </li>
+        <li>г. Кемерово, ул. Тухачевского, 60 </li>
+        <li>г. Киров, ул. Потребкооперации, 6 А склад N16 </li>
+        <li>г. Красноперекопск, ул. Таврическая 14/1 </li>
+        <li>г. Красноярск, Северное шоссе, 6 </li>
+        <li>г. Когалым, пр. Нефтяников, 1А </li>
+      </ul>
+   
+      <ul class="punkti2">
+        <li>г. Курган, ул. Омская, 151, база «Универсальная», склад №14 </li>
+        <li>г. Магнитогорск, ул. 1-я Северо-Западная 5 </li>
+        <li>г. Надым, АТП 3, Панель 47 </li>
+        <li>г. Нефтеюганск, Проезд 5П, строение 15/1 </li>
+        <li>г. Новосибирск, ул. Станционная, 30А, корп. 36 </li>
+        <li>г. Новый Уренгой, Западная промзона, панель Б </li>
+        <li>г. Ноябрьск, Промзона, панель IX </li>
+        <li>г. Тобольск, Промкомзона №3, строение 2, склад 2 </li>
+        <li>г. Иркутск, улица Набережная Иркута, дом 1 </li>
+        <li>г. Муравленко, ул. Ямальская, 26, стр.25 </li>
+        <li>г. Нижневартовск, ул. Индустриальная, 107, стр. 7 </li>
+        <li>г. Нягань, 6-й проезд, стр. 9 корп. 3 </li>
+        <li>г. Омск, ул. 10 лет Октября, 211/А </li>
+      </ul>
+    
+      <ul class="punkti3">
+        <li>г. Оренбург, ул. Беляевская, 6</li>
+        <li>г. Советский, Восточная Промзона </li>
+        <li>г. Сургут, ул. Промышленная, 16 </li>
+        <li>г. Тарко-Сале, ул.Труда Ряд 1А </li>
+        <li>г. Томск, ул. Нижне-Луговая, 4 </li>
+        <li>г. Уссурийск, ул. Московская,12 </li>
+        <li>г. Хабаровск, пер. Cтепной, 7а </li>
+        <li>г. Ханты-Мансийск, ул. Мира, 120 </li>
+        <li>г. Чита, ул. Сухая Падь, 3 </li>
+        <li>г. Югорск, ул. Промышленная, 5</li>
+      </ul>
+    
   </div>
 
   <div onclick="show('none')" id="wrap"></div>
   <form id="calc">
     <input id="visota" size="10">
     <input id="sirina" size="10"><br>
-    <input type="checkbox" name="option_1" value="1" id="option_1"><br>
-    <input type="checkbox" name="option_2" value="2" id="option_2"><br>
-    <input type="checkbox" name="option_3" value="3" id="option_3"><br>
-    <input type="checkbox" name="option_4" value="4" id="option_4"><br>
+    <div class="checkbox"><input type="checkbox" name="option_1" value="1" id="option_1"><label for="option_1"></label></div><br>
+    <div class="checkbox"><input type="checkbox" name="option_2" value="2" id="option_2"><label for="option_2"></label></div><br>
+    <div class="checkbox"><input type="checkbox" name="option_3" value="3" id="option_3"><label for="option_3"></label></div><br>
+    <div class="checkbox"><input type="checkbox" name="option_4" value="4" id="option_4"><label for="option_4"></label></div><br>
     <input type="button" value="" onclick="calculator()" id="megaCalc"><br>
     <input id="rezult" size="10">
   </form>       
+
+  <div onclick="showForm('none')" id="wrap2"></div>
+  <div class="form" id="form2">          
+    <form action="call_request.php" method="post" name="call-form" class="call-form">
+      <input type="text"   name="name" id="name1" class="inputbox" value="Ваше имя" onblur="if(this.value=='') this.value='Ваше имя';" onfocus="if(this.value=='Ваше имя') this.value='';" />
+      <input type="text"   name="number" id="number1" class="inputbox" value="Ваш телефон" onblur="if(this.value=='') this.value='Ваш телефон';" onfocus="if(this.value=='Ваш телефон') this.value='';" />
+
+      <button type="submit" value="" class="button" name="call-submit"><span>Заказать</span></button>
+      <input   type="hidden" name="call-control" class="call-control" value="0"/>     
+    </form>
+  </div>
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -490,6 +532,10 @@
   <script type="text/javascript">
  
             //Функция показа
+    function showForm(state){ 
+        document.getElementById('form2').style.display = state;            
+        document.getElementById('wrap2').style.display = state;             
+    }            
     function show(state){ 
         document.getElementById('calc').style.display = state;            
         document.getElementById('wrap').style.display = state;             
