@@ -7,51 +7,54 @@
 }
 
 .headerBanner{
-	border:#ccc 2px solid;
+	border: #ccc 2px solid;
 	border-radius: 20px;
 	margin-left: -100px;
 	margin-top: -200px;
-	background:#fff url(../img/headerLabel.png) left center no-repeat;
-	background-size: 100px 100px;
+	background: #fff url(../img/headerLabel.png) left center no-repeat;
+	background-size: 200px 200px;
 	width: 100%;
-	height: 110px;	
+	height: 200px;
 	color: rgb(127,127,127);
 	position: absolute;
-  	top: -18px;
-  	left: -100px;
+	top: -122px;
+	left: -148px;
+	text-align: left;
 }
 .headerBanner p {
-	font-size: 21px;
-	padding-right: 200px; 
+	font-size: 19px;
+	padding-left: 205px; 
 	
 }
 .headerBanner p:first-child { 
-	padding-top: 15px;
+	padding-top: 94px;
 }
 
 .headerBanner .timer{
 	position: absolute;
-	top:20px;
+	top:95px;
 	right: 10px;
 	}
 
 .phone{
 	color: #fff;
-	font-size: 2.7rem;
-	position: absolute;
- 	bottom: 28px;
+  	font-size: 40px;
+  	position: absolute;
+  	bottom: 52px;
   	right: -131px;
 
 }
-.call{
-	width: 220px;
-	height: 68px;	
-	background:#fff url(../img/call.png) center center no-repeat;
-	background-size: 220px 68px;
+.call{	
+	width: 336px;
+	height: 100px;
+	background: url(../img/call.png) center center no-repeat;
+	background-size: 336px 100px;
 	position: absolute;
-  	bottom: -44px;
-  	right: -138px;
+	bottom: -44px;
+	right: -141px;
+	border: none;
 }
+.call:hover{background: url(../img/callHover.png) center center no-repeat;background-size: 336px 100px;}
 
 .aboutCompany, .aboutCompanyPart{
 	display: block;
@@ -65,13 +68,14 @@
 }
 
 
-.form{background:#dbdbdb; width:980px; height:54px; margin-top:30px;}
+.form{background:#dbdbdb; width:980px; height:147px; margin-top:30px;}
 .form .title{font-size:22px; color:#fff;  font-family: 'Conv_DINPro-Medium';  text-shadow:1px 1px #ccc; padding-top:30px; margin-left:105px; text-transform:uppercase;}
-.form .inputbox{background:url(../img/form-input.jpg) no-repeat; background-size: 315px 45px; width:325px; height:45px; padding:10px 20px; border:none; color:#dadada; font-size:20px; letter-spacing:1px; font-family: 'Conv_DINPro-Regular'; margin-right:16px; display:block; float:left;}
+.form .inputbox{background:url(../img/form-input.png) no-repeat; background-size: 315px 90px; width:325px; height:90px; padding:10px 20px; border:none; color:#dadada; font-size:35px; letter-spacing:1px; font-family: 'Conv_DINPro-Regular'; margin-right:16px; margin-top:-20px; text-align:center; display:block; float:left;}
 .form .button{background: url(../img/form-button.png) no-repeat; background-size: 250px 43px; width:275px; height:49px; border:none; cursor:pointer; text-indent:-9999px; font-size:0; display:block; float:left; margin-top:1px; }
 .form .button span{text-indent:-9999px;  font-size:0; }
 .form .button:hover{opacity:0.8;}
-.form .call-form{padding-top:5px; margin-left:20px;}
+.form .call-form{  padding-top: 50px;
+  padding-bottom: 50px; margin-left:20px;}
 
 .twoChiks, .plusMinus{
 	display: block;
@@ -219,6 +223,10 @@
 	width: 817px;
     height: 347px;
 }
+.otzivImg{
+	margin: 0 auto;
+}
+
 .secondHelpfulBlock{
 	display: block;
 	margin:50px auto 0;
